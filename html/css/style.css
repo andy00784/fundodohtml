@@ -176,7 +176,8 @@ ul.news_box li h3 {font-size: 16px; font-weight: 400; line-height: 26px; margin-
 .news_article_text p:last-child {padding-bottom: 0;}
 
 /* --Online Class--------------------------------- */
-ul.online_class li {margin: 0 34px 58px 0;}
+ul.online_class li {margin: 0 34px 44px 0;}
+ul.online_class li .news_photo {margin-bottom: 14px;}
 
 /* --Speech--------------------------------- */
 .speech_form {margin-top: 40px; width: 100%;}
@@ -282,8 +283,8 @@ img.modal_close_icon {
     width: 16px;
 }
 img.modal_close_icon:hover {opacity: .7;}
-.loginModal h3,.forgetPswModal h3,
-.registerRuleModal h3,.registerModal h3 {border-bottom: 1px solid #d3d3d3; font-size: 24px; font-weight: 500; padding-bottom: 10px;}
+.loginModal h3,.forgetPswModal h3,.registerRuleModal h3,
+.registerModal h3,.contactModal h3 {border-bottom: 1px solid #d3d3d3; font-size: 24px; font-weight: 500; padding-bottom: 14px;}
 .loginModal input[name="login_number"],.loginModal input[name="login_psw"],
 .forgetPswModal input[name="forget_psw_number"],.forgetPswModal input[name="forget_psw_email"],
 .forgetPswModal input[name="forget_psw_psw"],.forgetPswModal input[name="forget_psw_confirm_psw"],
@@ -301,6 +302,7 @@ img.modal_close_icon:hover {opacity: .7;}
     position: relative;
     width: 100%;
 }
+.contactModal textarea[name="contact_detail"] {height: 120px; resize: none;}
 ::placeholder {color: rgba(33,33,33,.65); font-weight: 400; letter-spacing: 0;}
 :-ms-input-placeholder {color: rgba(33,33,33,.65); font-weight: 400; letter-spacing: 0;}  
 ::-ms-input-placeholder {color: rgba(33,33,33,.65); font-weight: 400; letter-spacing: 0;}
